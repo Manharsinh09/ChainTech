@@ -51,7 +51,7 @@
 .submitbtn{
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #4942aa;
     color: white;
     border: none;
     border-radius: 4px;
@@ -59,4 +59,39 @@
     cursor: pointer;
     margin-top: 10px;
 
+}
+
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.main-header{
+    width: 100vw;
+    height: 100px;
+    padding: 30px;
+}
+
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container button{
+    padding: 10px 20px;
+    background-color: #4942aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 10px 10px 0px;
 }

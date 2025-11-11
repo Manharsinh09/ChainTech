@@ -1,22 +1,30 @@
 import { useRef } from "react";
 import { signupUser, userExsit } from "../utils/methods";
-
+import { useNavigate } from "react-router";
+import { userAuth } from "../context/UserContext";
 export const Signup =() =>{
 
+    const navigate = useNavigate ();
     const name = useRef();
     const email = useRef();
     const password = useRef();
+    const {setUser} = userAuth();
+
     const handleSubmit = (event) =>{
         event.preventDefault();
-        // console.log(name.current.value, email.current.value, password.current.value);
         if (userExsit(email.current.value)){
-            console.log("user alrady exsits");
             alert("User already exists with this email");
             event.target.reset();
         }
         else{
             signupUser(name.current.value, email.current.value, password.current.value);
-            console.log("singup");
+            alert("Signup successful! Please login.");
+            setUser({
+                name: name.current.value,
+                email: email.current.value,
+                password: password.current.value
+            });
+            navigate("/");
         }
     }
     return(

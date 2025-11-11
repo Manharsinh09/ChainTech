@@ -2,11 +2,11 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 
 import './App.css'
 
-import { Home } from './components/home'
+import { Home } from "./components/Home"
 import { Login } from "./components/Login";
 import { Signup } from "./components/Signup";
 import { UMS } from "./components/UMS";
-
+import { Update } from "./components/Update";
 function App() {
   
   const router = createBrowserRouter([
@@ -26,6 +26,10 @@ function App() {
           path:"signup",
           element:<Signup/>
         },
+        {
+          path:"update",
+          element:<Update/>
+        }
       ]
     }
   ])

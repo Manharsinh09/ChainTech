@@ -1,23 +1,26 @@
 import { useRef } from "react"
 import { userExsit, validateLogin } from "../utils/methods";
-import { useNavigation } from "react-router";
-
+import { useNavigate } from "react-router";
+import { userAuth } from "../context/UserContext";
 export const Login = () =>{
 
     const email = useRef();
     const password = useRef();
-    const navigate = useNavigation();
+    const navigate = useNavigate();
+    const {setUser} = userAuth();
 
     const handleSubmit = (event) =>{
         event.preventDefault()
-
-        if(validateLogin(email.current.value,password.current.value)){
+        const user = validateLogin(email.current.value, password.current.value);
+        
+        if(user!==null){
             alert("Login Sucsesfuly");
+            setUser(user);
+            navigate("/");
         }
         else{
             alert("Enter Valid Data");
         }
-        console.log(email.current.value, password.current.value);
     }
     return(
         
