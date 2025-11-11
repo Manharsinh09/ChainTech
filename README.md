@@ -28,3 +28,13 @@ use React Context API for authentication and user data handling without external
 * LocalStorage API
 * Vite (for fast dev environment)
 
+## 🖼️ Example Screenshot
+
+Here’s what the app looks like in action:
+
+<img width="500" height="300"  alt="Screenshot (1)" src="https://github.com/user-attachments/assets/3a83e672-c7ad-4591-a506-a951e6bacacd" />
+<img width="500" height="300" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/d2114056-a711-476b-bcb4-5f296796213e" />
+<img width="500" height="300" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/56850f1a-53cd-46df-879f-b73525d1222d" />
+<img width="500" height="300" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/73552c30-1f86-4d38-afda-028f734a1557" />
+<img width="500" height="300" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/e6f9bafc-6369-491b-b440-f237facb63e6" />
+
