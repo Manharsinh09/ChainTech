@@ -22,7 +22,7 @@ use React Context API for authentication and user data handling without external
 * Uses React Router for page navigation (/login, /update, /home).
 
 🧰 Tech Stack
-* React 18+
+* React 
 * React Router DOM
 * Context API
 * LocalStorage API
