@@ -1,7 +1,7 @@
 # React User Management System
 
 A simple User Management System built with React, featuring login, user updates, and context-based global state management.
-This project demonstrates how to use React Context API for authentication and user data handling without external libraries.
+use React Context API for authentication and user data handling without external libraries.
 
 🚀 Features
 
