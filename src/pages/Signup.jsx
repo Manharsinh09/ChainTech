@@ -62,7 +62,7 @@ export const Signup = () => {
                                     <Form onSubmit={handleSubmit}>
                                         <Form.Group className="mb-3" controlId="formBasicName">
                                             <Form.Label className="small text-muted text-uppercase fw-bold">Full Name</Form.Label>
-                                            <Form.Control type="text" placeholder="John Doe" ref={nameRef} required className="py-2" />
+                                            <Form.Control type="text" placeholder="Full Name" ref={nameRef} required className="py-2" />
                                         </Form.Group>
 
                                         <Form.Group className="mb-3" controlId="formBasicEmail">
