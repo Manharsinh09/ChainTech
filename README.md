@@ -32,9 +32,8 @@ use React Context API for authentication and user data handling without external
 
 Here’s what the app looks like in action:
 
-<img width="500" height="300"  alt="Screenshot (1)" src="https://github.com/user-attachments/assets/3a83e672-c7ad-4591-a506-a951e6bacacd" />
-<img width="500" height="300" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/d2114056-a711-476b-bcb4-5f296796213e" />
-<img width="500" height="300" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/56850f1a-53cd-46df-879f-b73525d1222d" />
-<img width="500" height="300" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/73552c30-1f86-4d38-afda-028f734a1557" />
-<img width="500" height="300" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/e6f9bafc-6369-491b-b440-f237facb63e6" />
+<img width="1366" height="500" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/dafd76ac-a628-4f2b-a500-25cb542ce2eb" />
+<img width="1366" height="500" alt="Screenshot (149)" src="https://github.com/user-attachments/assets/2d97a03d-acab-4d6a-a0c2-40369b05d5a9" />
+<img width="1366" height="500" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/a357f520-91d6-4a92-ad64-570d81ea3110" />
+<img width="1366" height="500" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/593749a5-e062-4927-9d02-4d36289b51ea" />
 
